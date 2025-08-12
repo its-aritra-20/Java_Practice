@@ -10,7 +10,7 @@ public class Driver {
 		SinglyLinkedList list=new SinglyLinkedList();
 		boolean flag=true;
 		while(flag) {
-			System.out.println("Enter 1 to enter data at front\nEnter 2 to display the data\nEnter 3 to update the data for a specific position\nEnter 4 to insert at a specific postion\nEnter 5 to delete from front\nEnter 6 to delete at a specific postion\nEnter 7 to exit");
+			System.out.println("Enter 1 to enter data at end\nEnter 2 to display the data\nEnter 3 to update the data for a specific position\nEnter 4 to insert at a specific postion\nEnter 5 to delete from front\nEnter 6 to delete at a specific postion\nEnter 7 to exit");
 			int choice =sc.nextInt();
 			switch(choice) {
 			case 1:{

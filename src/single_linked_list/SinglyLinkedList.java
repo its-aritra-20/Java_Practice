@@ -108,10 +108,10 @@ public class SinglyLinkedList {
 			System.err.println("No data currently stored in the list");
 			return;
 		}
-		while(i++<=count) {
+		while(i++<count) {
 			System.err.println(current.data);
 			current=current.next;
 		}
-		System.out.println();
+		System.err.println();
 	}
 }
